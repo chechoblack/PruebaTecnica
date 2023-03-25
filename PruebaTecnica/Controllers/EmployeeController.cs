@@ -93,7 +93,7 @@ namespace PruebaTecnica.Controllers
         /// <summary>
         /// Eliminar los empleados
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="model"></param>
         /// <returns></returns>
         [AcceptVerbs("POST")]
         [Route("api/Employee/EliminarEmployees")]
