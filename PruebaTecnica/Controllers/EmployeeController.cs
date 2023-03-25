@@ -91,7 +91,7 @@ namespace PruebaTecnica.Controllers
 
 
         /// <summary>
-        /// 
+        /// Eliminar los empleados
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
