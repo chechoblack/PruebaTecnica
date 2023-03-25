@@ -15,7 +15,7 @@ namespace PruebaTecnica.Logica
 
         private readonly P1700Entities _DbConnection = null;
         /// <summary>
-        /// 
+        /// Constructor de la clase
         /// </summary>
         public LogicaEmployee()
         {
@@ -23,7 +23,7 @@ namespace PruebaTecnica.Logica
         }
 
         /// <summary>
-        /// 
+        /// Muestra los empleados
         /// </summary>
         /// <returns></returns>
         public List<EEmployee> Mostrar()
@@ -78,7 +78,7 @@ namespace PruebaTecnica.Logica
         }
 
         /// <summary>
-        /// 
+        ///  Guarda los empleados
         /// </summary>
         /// <returns></returns>
         public async Task<bool> Crear(EEmployee Employe)
@@ -119,7 +119,7 @@ namespace PruebaTecnica.Logica
         }
 
         /// <summary>
-        /// 
+        /// Edita un empleado
         /// </summary>
         /// <param name="Employe"></param>
         /// <returns></returns>
@@ -167,7 +167,7 @@ namespace PruebaTecnica.Logica
         }
 
         /// <summary>
-        /// 
+        /// Elimina un empleado
         /// </summary>
         /// <param name="Employe"></param>
         /// <returns></returns>
