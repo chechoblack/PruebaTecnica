@@ -37,6 +37,7 @@ $(document).ready(function () {
                     alert('Datos enviados correctamente');
                     popup.style.display = "none";
                     pageContent.style.pointerEvents = "auto";
+                    location.reload();
                 } else {
                     alert('Ha ocurrido un error al enviar los datos');
                 }
